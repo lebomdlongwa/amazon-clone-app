@@ -1,0 +1,28 @@
+.checkout__info {
+  background-color: rgb(219, 219, 219);
+  margin-left: 20px;
+  padding: 13px 15px;
+  min-width: 300px;
+}
+
+.checkbox__container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox__container > input {
+  margin-right: 5px;
+}
+
+.checkbox__container > p {
+  font-size: small;
+}
+
+.checkout__button {
+  width: 100%;
+  border-color: #a88734 #9c7e31 #846a29;
+  background-color: #f0c14b;
+  padding: 5px;
+}

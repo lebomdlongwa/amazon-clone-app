@@ -1,0 +1,41 @@
+.product {
+  width: 50%;
+  background-color: white;
+  z-index: 1;
+  margin: 10px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product__info {
+  margin: 20px 20px 0 20px;
+}
+
+.product__rating__star {
+  color: orange;
+}
+
+.product__view {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.itemImage {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.addToBasket__button {
+  margin-top: 20px;
+  display: block;
+  background-color: #f0c14b;
+  padding: 5px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
